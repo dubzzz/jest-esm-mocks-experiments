@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "javascript-only",
+  "version": "1.0.0",
+  "description": "Experimenting Mocking with Jest against ES Modules in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "Nicolas DUBIEN <github@dubien.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
