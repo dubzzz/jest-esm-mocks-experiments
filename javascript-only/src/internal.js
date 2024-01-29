@@ -1,3 +1,3 @@
-export default function compute() {
+export function compute() {
   return "from src";
 }
