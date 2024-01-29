@@ -12,7 +12,7 @@ beforeEach(() => {
 
 test("mock internal", () => {
   // Arrange
-  const { compute } = InternalMock;
+  const { compute } = InternalMock as jest.Mocked<typeof InternalMock>;
   compute.mockReturnValue("from test");
 
   // Act / Assert
