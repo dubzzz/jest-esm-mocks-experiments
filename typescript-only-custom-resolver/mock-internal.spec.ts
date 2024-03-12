@@ -1,10 +1,10 @@
 import { jest } from "@jest/globals";
 
-jest.unstable_mockModule("./src/internal", () => ({
+jest.unstable_mockModule("./src/internal.js", () => ({
   compute: jest.fn(),
 }));
-const InternalMock = await import("./src/internal");
-const { play } = await import("./src/use-internal");
+const InternalMock = await import("./src/internal.js");
+const { play } = await import("./src/use-internal.js");
 
 beforeEach(() => {
   jest.resetAllMocks();

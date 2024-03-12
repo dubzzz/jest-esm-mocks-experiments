@@ -4,7 +4,7 @@ jest.unstable_mockModule("path", () => ({
   extname: jest.fn(),
 }));
 const PathMock = await import("path");
-const { play } = await import("./src/use-package");
+const { play } = await import("./src/use-package.js");
 
 beforeEach(() => {
   jest.resetAllMocks();

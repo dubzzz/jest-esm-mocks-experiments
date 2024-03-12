@@ -1,7 +1,7 @@
 {
   "private": true,
   "type": "module",
-  "name": "typescript-only",
+  "name": "typescript-only-custom-resolver",
   "version": "1.0.0",
   "description": "Experimenting Mocking with Jest against ES Modules in TypeScript",
   "main": "index.js",
@@ -16,6 +16,7 @@
     "@babel/preset-typescript": "^7.23.3",
     "@types/jest": "^29.5.11",
     "jest": "^29.7.0",
+    "jest-ts-webcompat-resolver": "^1.0.0",
     "typescript": "^5.3.3"
   }
 }
